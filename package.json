@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "start": "tsc src/index.ts",
+    "start": "npx ts-node src/processOrder.ts",
     "clean": "rm -rf src",
     "type-check": "tsc --noEmit"
   },
