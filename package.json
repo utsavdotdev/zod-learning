@@ -1,0 +1,27 @@
+{
+  "name": "zod-typescript-project",
+  "version": "1.0.0",
+  "description": "A TypeScript project using Zod for schema validation",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc src/index.ts",
+    "clean": "rm -rf src",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "zod",
+    "validation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
